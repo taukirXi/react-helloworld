@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import Header from './Header.jsx';
 import MainContent from './MainContent.jsx';
+import Footer from './Footer.jsx'
+
 class MyApp extends React.Component {
     
     render() { 
@@ -10,6 +12,7 @@ class MyApp extends React.Component {
             <div>
                 < Header />
                 <MainContent />
+                <Footer />
 
                            
             </div>
