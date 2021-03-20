@@ -3,9 +3,9 @@ import React from 'react';
 class MainContent extends React.Component {
     render() { 
         return ( 
-            <div>
+            <main>
                 <p>this is a paragraph</p>
-            </div>
+            </main>
          );
     }
 }

@@ -3,9 +3,9 @@ import React from 'react';
 class Footer extends React.Component {
     render() { 
         return ( 
-            <div>
-                <p><bold>this is footer</bold></p>
-            </div>
+            <footer>
+                this is footer
+            </footer>
          );
     }
 }

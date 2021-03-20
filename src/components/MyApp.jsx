@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from './Header.jsx';
 import MainContent from './MainContent.jsx';
-import Footer from './Footer.jsx'
+import Footer from './Footer.jsx';
+import Navbar from './Navbar.jsx';
+
 
 class MyApp extends React.Component {
     
     render() { 
         return ( 
             <div>
-                < Header />
+                <Navbar />
                 <MainContent />
                 <Footer />
 
